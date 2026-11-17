@@ -1,0 +1,19 @@
+# 缓存与编译产物
+__pycache__/
+*.pyc
+*.pyo
+
+# 金标准与临时数据
+*.npz
+*.log
+
+# 模型权重与官方表（自行从上游获取，不入库）
+assets/*.onnx
+assets/*.json
+
+# 虚拟环境
+.venv/
+venv/
+
+# 上游仓库副本（对拍时才需要）
+PerfectDou/
