@@ -237,7 +237,6 @@ python tools/chain_check_v2.py --repo /path/to/PerfectDou --games 1000 --seed 20
 
 ## 不包含什么
 
-- **不含模型权重**。`landlord / landlord_up / landlord_down` 三个 `.onnx`（每个约 4.4 MB，合计约 13 MB）请从上游获取，并遵守其许可。
 - **不含原版 `.so` 与上游仓库源码**。`chain_check.py` 对拍时才需要它们。
 - **不含界面与对局引擎**（发牌、叫地主、加分、出牌轮转、结算）。本仓库只到"局面 → 32738 输入向量"这一层，推理与交互请接在自己那一层。
 
